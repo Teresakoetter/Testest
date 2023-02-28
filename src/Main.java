@@ -1,12 +1,11 @@
 import com.sun.source.util.SourcePositions;
-
 import javax.sound.midi.Soundbank;
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        boolean length = lengthTest("dlfjgggggghkfdjh");
+        boolean length = lengthTest("dlfjggggfgjhgjghjghdjgghkfdjh");
         System.out.println(length);
         boolean fancy = fancyCheck("schalafancyschala");
         System.out.println(fancy);
