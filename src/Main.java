@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        boolean length = lengthTest("dlfjggggfgjhgjghjghdjgghkfdjh");
+        boolean length = lengthTest("dlfjggggfgüüükkküüjhgjglhjghdjgghkfdjh");
         System.out.println(length);
         boolean fancy = fancyCheck("schalafancyschala");
         System.out.println(fancy);
